@@ -1,1 +1,22 @@
-{"name":"google-docs-lite","scripts":{"dev":"next dev","build":"next build"}}
+{
+  "name": "collaborative-docs-app",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2",
+    "vitest": "latest"
+  }
+}

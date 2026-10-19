@@ -1,0 +1,7 @@
+node_modules
+node_modules/
+.next/
+data/documents.json
+data/documents.json.*.tmp
+.env*
+!.env.example
